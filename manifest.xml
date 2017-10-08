@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="CM-Galaxy-View"
+           fetch="https://github.com"
+           revision="cm-13.0" />
+
+  <remote  name="lineageos"
+           fetch="https://github.com"
+           review="review.lineageos.org"
+           revision="cm-13.0" />
+
+  <!-- LineageOS -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineageos" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="lineageos" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="lineageos" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="lineageos" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="lineageos" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="lineageos" />
+  <remove-project name="LineageOS/bionic" />
+
+  <!-- CM-Galaxy-View -->
+  <project name="CM-Galaxy-View/android_bionic" path="bionic" remote="CM-Galaxy-View" />
+  <project name="CM-Galaxy-View/android_device_samsung_gvwifi" path="device/samsung/gvwifi" remote="CM-Galaxy-View" />
+  <project name="CM-Galaxy-View/android_device_samsung_exynos7580-common" path="device/samsung/exynos7580-common" remote="CM-Galaxy-View" />
+  <project name="CM-Galaxy-View/android_vendor_samsung_gvwifi" path="vendor/samsung/gvwifi" remote="CM-Galaxy-View" />
+  <project name="CM-Galaxy-View/android_hardware_samsung_slsi-cm_exynos7580" path="hardware/samsung_slsi-cm/exynos7580" remote="CM-Galaxy-View" />
+  <project name="CM-Galaxy-View/android_kernel_samsung_gvwifi" path="kernel/samsung/exynos7580" remote="CM-Galaxy-View" />
+
+</manifest>
