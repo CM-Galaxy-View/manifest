@@ -11,7 +11,6 @@
            revision="cm-13.0" />
 
   <!-- LineageOS -->
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineageos" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="lineageos" />
   <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="lineageos" />
   <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="lineageos" />
