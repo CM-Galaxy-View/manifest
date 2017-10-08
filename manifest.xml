@@ -17,7 +17,7 @@
   <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="lineageos" />
   <project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="lineageos" />
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="lineageos" />
-  <remove-project name="LineageOS/bionic" />
+  <remove-project name="LineageOS/android_bionic" />
 
   <!-- CM-Galaxy-View -->
   <project name="CM-Galaxy-View/android_bionic" path="bionic" remote="CM-Galaxy-View" />
